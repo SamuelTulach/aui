@@ -564,9 +564,7 @@
     chown -R ${username}:users /home/${username}/.xinitrc
   } #}}}
   invalid_option() { #{{{
-    print_line
-    echo "Invalid option. Try another one."
-    pause_function
+    dialog --infobox "Invalid option. Try another one." 10 30 ; sleep 3
   } #}}}
   pause_function() { #{{{
     print_line
