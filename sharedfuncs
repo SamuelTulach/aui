@@ -21,25 +21,26 @@
 #GLOBAL VARIABLES {{{
   checklist=( 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 )
   # COLORS {{{
-    Bold=$(tput bold)
-    Underline=$(tput sgr 0 1)
-    Reset=$(tput sgr0)
+    # Dialog does not support colors, which is sad but true!
+    Bold=""
+    Underline=""
+    Reset=""
     # Regular Colors
-    Red=$(tput setaf 1)
-    Green=$(tput setaf 2)
-    Yellow=$(tput setaf 3)
-    Blue=$(tput setaf 4)
-    Purple=$(tput setaf 5)
-    Cyan=$(tput setaf 6)
-    White=$(tput setaf 7)
+    Red=""
+    Green=""
+    Yellow=""
+    Blue=""
+    Purple=""
+    Cyan=""
+    White=""
     # Bold
-    BRed=${Bold}${Red}
-    BGreen=${Bold}${Green}
-    BYellow=${Bold}${Yellow}
-    BBlue=${Bold}${Blue}
-    BPurple=${Bold}${Purple}
-    BCyan=${Bold}${Cyan}
-    BWhite=${Bold}${White}
+    BRed=""
+    BGreen=""
+    BYellow=""
+    BBlue=""
+    BPurple=""
+    BCyan=""
+    BWhite=""
   #}}}
   # PROMPT {{{
     prompt1="Enter your option: "
